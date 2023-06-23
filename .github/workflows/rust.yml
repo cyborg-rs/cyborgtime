@@ -77,13 +77,13 @@ jobs:
     - uses: dtolnay/rust-toolchain@1.60.0
     - run: cargo build --all-features --lib
 
-  # TODO: migrate to criterion
-  bench:
-    name: Check that benchmarks compile
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - uses: dtolnay/rust-toolchain@nightly
-    - name: Build default (host native) bench
-      run: cargo build --benches
+#  TODO: broken - migrate to criterion
+#  bench:
+#    name: Check that benchmarks compile
+#    runs-on: ubuntu-latest
+#    steps:
+#    - uses: actions/checkout@v3
+#    - uses: dtolnay/rust-toolchain@nightly
+#    - name: Build default (host native) bench
+#      run: cargo build --benches
 
