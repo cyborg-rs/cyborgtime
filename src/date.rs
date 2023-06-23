@@ -131,7 +131,7 @@ pub fn parse_rfc3339_weak(s: &str) -> Result<SystemTime, Error> {
     if year < 1970 || hour > 23 || minute > 59 || second > 60 {
         return Err(Error::OutOfRange);
     }
-    // TODO(tailhook) should we check that leaps second is only on midnight ?
+    // TODO should we check that leaps second is only on midnight ?
     if second == 60 {
         second = 59;
     }

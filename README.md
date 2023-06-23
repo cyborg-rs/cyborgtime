@@ -4,7 +4,7 @@ Cyborg Time
 **Status: stable**
 
 [Documentation](https://docs.rs/cyborgtime) |
-[Github](https://github.com/tailhook/cyborgtime) |
+[Github](https://github.com/cyborg-rs/cyborgtime) |
 [Crate](https://crates.io/crates/cyborgtime)
 
 This is the cybernetically enhanced fork of `humantime`.
