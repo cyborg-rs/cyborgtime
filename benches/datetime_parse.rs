@@ -1,6 +1,3 @@
-#![feature(test)]
-extern crate test;
-
 use chrono::{DateTime};
 use cyborgtime::parse_rfc3339;
 
